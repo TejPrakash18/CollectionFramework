@@ -36,5 +36,8 @@ public class DLL {
         for(int element : ll){
             System.out.println(element);
         }
+
+        ll.remove(1);
+        System.out.println(ll);
     }
 }

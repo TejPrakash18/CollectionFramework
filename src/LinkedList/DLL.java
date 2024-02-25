@@ -29,15 +29,17 @@ public class DLL {
         System.out.println(ress);
 
         Iterator<Integer> it = ll.iterator();
-        while (it.hasNext()){
+        while(it.hasNext()){
             System.out.println("values "+ it.next());
         }
+
 
         for(int element : ll){
             System.out.println(element);
         }
 
-        ll.remove(1);
+
+        ll.remove(1 );
         System.out.println(ll);
     }
 }

@@ -14,7 +14,7 @@ public class PriorityQueueImplemention {
 
         System.out.println(pq);
         System.out.println(pq.peek());
-//        System.out.println(pq.element());
+        System.out.println(pq.element());
         System.out.println(pq.size());
         String name = pq.remove();
         System.out.println(name);
